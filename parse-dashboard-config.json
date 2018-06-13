@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "serverURL": "https://fansourced-character-map.herokuapp.com/parse-example-server",
+      "appId": "character-map",
+      "masterKey": "LRsCLuO5xFHjV8EAyVPh",
+      "appName": "Charac-tographer",
+      "production": "true"
+    }
+  ]
+}
