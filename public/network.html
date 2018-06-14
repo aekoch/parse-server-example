@@ -136,7 +136,8 @@
 	var characters = [];
 	var groups = {}
 
-	$("#form-character").submit(function(){
+	$("#form-character").submit(function(e){
+		e.preventDefault();
 		var name=$("#Add-Character-Name").val();
 		var group = $("#Add-Character-Group").val();
 		//alert("form\nName="+name+"\nGroup="+group);
@@ -165,7 +166,8 @@
 		//alert(message);
 	});
 
-	$("#form-interaction").submit(function(){
+	$("#form-interaction").submit(function(e){
+		e.preventDefault();
 		var character1 = $("#Interaction-Char1").val();
 		var character2 = $("#Interaction-Char2").val();
 
